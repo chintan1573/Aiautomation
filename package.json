@@ -1,0 +1,26 @@
+{
+  "name": "peanut-butter-cheesecake-reel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A vertical Remotion recipe reel for peanut butter protein cheesecake bites.",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts PeanutButterReel deliverables/peanut-butter-protein-cheesecake.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "5.3.0",
+    "@fontsource/playfair-display": "5.3.0",
+    "@remotion/transitions": "4.0.535",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.535",
+    "@types/node": "22.19.1",
+    "@types/react": "18.3.28",
+    "@types/react-dom": "18.3.7",
+    "typescript": "5.9.3"
+  }
+}
